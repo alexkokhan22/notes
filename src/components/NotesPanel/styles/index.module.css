@@ -1,0 +1,42 @@
+.notesPanelContainer {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.messageContainer {
+    width: 50%;
+    word-wrap: break-word;
+}
+
+.infoContainer {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.removeNoteContainer {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+svg:hover {
+    fill: grey;
+}
+
+svg:active {
+    opacity: 0.5;
+}
+
+.text {
+    margin-top: 10px;
+    word-wrap: break-word;
+    text-align: center;
+}

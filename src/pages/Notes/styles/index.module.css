@@ -1,0 +1,28 @@
+.notesContainer {
+    margin-top: 22px;
+    width: 80vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.notesPanel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.addMessagePanel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    scroll-snap-align: end;
+}
+
